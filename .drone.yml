@@ -1,0 +1,9 @@
+kind: pipeline
+name: default
+
+step:
+- name: backend
+  image: golang:1.12-alpine
+  commands:
+  - ls -al
+  - pwd
